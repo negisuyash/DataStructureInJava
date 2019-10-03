@@ -36,6 +36,14 @@ public class Stack {
 		top=node.getNext();
 	}
 	
+	public void peek() {
+		if(size==0) {
+			System.out.println("NO ELEMENT IN STACK !!");
+			return;
+		}
+		System.out.println("TOP ELEMENT IS "+top.getValue());
+	}
+	
 	public void printStack() {
 		node=top;
 		System.out.print("TOP: ");
