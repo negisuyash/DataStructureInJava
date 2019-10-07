@@ -5,6 +5,7 @@ import com.daa.impl.DoublyLinkedList;
 import com.daa.impl.LinkedList;
 import com.daa.impl.Queue;
 import com.daa.impl.Stack;
+import com.daa.problems.TowerOfHanoi;
 
 public class DriverClass {
 	
@@ -105,7 +106,7 @@ public class DriverClass {
 		
 		*/
 		
-			//UNCOMMENT FOR CIRCULAR QUEUE
+		/*	//UNCOMMENT FOR CIRCULAR QUEUE
 		
 		CircularQueue circularQueue=new CircularQueue();
 		
@@ -129,5 +130,20 @@ public class DriverClass {
 		//printing data from new circular queue
 		circularQueue.printCircularQueue();
 	}
-
+	
+	*/
+		
+	  //UNCOMMENT FOR TOWER OF HANOI PROBLEM
+	  
+		TowerOfHanoi towerOfHanoi=new TowerOfHanoi();
+		
+		//CREATING SOLUTION FOR TOWER OF HANOI PROBLEM WITH 4 DISK
+		towerOfHanoi.hanoi(3, 'A', 'B', 'C');   //  4--> number of disk, A--> source, B--> via,C--> destination
+	 	
+	 
+	 
+	 
+	  
+	 
+	}
 }
